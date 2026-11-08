@@ -1,5 +1,7 @@
 # ClockInToday No-Interview Jobs Dataset
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24058617.svg)](https://doi.org/10.5281/zenodo.24058617)
+
 Requirements and pay data for **112 US jobs and gig apps you can start without a job interview**, from [ClockInToday](https://clockintoday.com/), a free, independent directory for people who need income fast.
 
 Each row is one platform (delivery and driving, shift work, tasks and labor, pet care, online work, surveys and rewards, plasma and paid studies) with:
@@ -29,6 +31,8 @@ The live, always-current version is on [ClockInToday.com](https://clockintoday.c
 
 Data is licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/). You can use and share it, including commercially, with credit:
 
-> ClockInToday, "No-Interview Jobs Dataset," November 2026, https://clockintoday.com/report/
+> Crew, C. (2026). ClockInToday No-Interview Jobs Dataset [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24058617
+
+The DOI always points to the latest monthly version on [Zenodo](https://doi.org/10.5281/zenodo.24058617). Report with charts: https://clockintoday.com/report/
 
 Found an error? Email hello@clockintoday.com or open an issue.

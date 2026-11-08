@@ -7,6 +7,7 @@ authors:
     given-names: Chris
     affiliation: ClockInToday
 license: CC-BY-4.0
+doi: 10.5281/zenodo.24058617
 url: "https://clockintoday.com/report/"
 repository-code: "https://github.com/crewdog77/clockintoday-data"
 keywords:
