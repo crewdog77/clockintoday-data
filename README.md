@@ -33,6 +33,6 @@ Data is licensed under [Creative Commons Attribution 4.0 (CC BY 4.0)](https://cr
 
 > Crew, C. (2026). ClockInToday No-Interview Jobs Dataset [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24058617
 
-The DOI always points to the latest monthly version on [Zenodo](https://doi.org/10.5281/zenodo.24058617). Report with charts: https://clockintoday.com/report/
+The DOI always points to the latest monthly version on [Zenodo](https://doi.org/10.5281/zenodo.24058617). Also on [Hugging Face](https://huggingface.co/datasets/ClockInToday/no-interview-jobs) (load with `datasets.load_dataset("ClockInToday/no-interview-jobs")`). Report with charts: https://clockintoday.com/report/
 
 Found an error? Email hello@clockintoday.com or open an issue.
