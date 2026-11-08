@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "ClockInToday No-Interview Jobs Dataset"
+authors:
+  - family-names: Crew
+    given-names: Chris
+    affiliation: ClockInToday
+license: CC-BY-4.0
+url: "https://clockintoday.com/report/"
+repository-code: "https://github.com/crewdog77/clockintoday-data"
+keywords:
+  - gig economy
+  - labor economics
+  - background checks
+  - worker classification
