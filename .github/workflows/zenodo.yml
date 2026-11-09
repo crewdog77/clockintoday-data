@@ -1,0 +1,31 @@
+# Each GitHub release becomes a new version of the existing Zenodo record (concept DOI 10.5281/zenodo.24058617).
+# Needs the repository secret ZENODO_TOKEN (Zenodo personal access token with deposit:write and deposit:actions).
+name: Publish to Zenodo
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version label, e.g. 2026.12"
+        required: true
+      dry_run:
+        description: "Only check the token and record, change nothing"
+        type: boolean
+        default: true
+permissions:
+  contents: read
+jobs:
+  zenodo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: New Zenodo version
+        env:
+          ZENODO_TOKEN: ${{ secrets.ZENODO_TOKEN }}
+          VERSION: ${{ github.event.release.tag_name || inputs.version }}
+          DRY: ${{ inputs.dry_run && '--dry-run' || '' }}
+        run: python scripts/zenodo_release.py "$VERSION" $DRY
